@@ -73,9 +73,9 @@ if __name__ == "__main__":
     print("Synaptic weights after training: ")
     print(neural_network.synaptic_weights)
 
-    A = input("Input 1: ")
-    B = input("Input 2: ")
-    C = input("Input 3: ")
+    A = str(input("Input 1: "))
+    B = str(input("Input 2: "))
+    C = str(input("Input 3: "))
     
     print("New situation: input data = ", A, B, C)
     print("Output data: ")
