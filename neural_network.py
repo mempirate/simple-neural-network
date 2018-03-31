@@ -73,6 +73,10 @@ if __name__ == "__main__":
     print("Synaptic weights after training: ")
     print(neural_network.synaptic_weights)
 
-    print("New situation: input data = [1,0,0]")
+    A = input("Input 1: ")
+    B = input("Input 2: ")
+    C = input("Input 3: ")
+    
+    print("New situation: input data = ", A, B, C)
     print("Output data: ")
-    print(neural_network.think(np.array([1,0,0])))
+    print(neural_network.think(np.array([A, B, C])))
