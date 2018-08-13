@@ -47,6 +47,8 @@ class NeuralNetwork():
         """
         Pass inputs through the neural network to get output
         """
+        
+        inputs = inputs.astype(float)
         output = self.sigmoid(np.dot(inputs, self.synaptic_weights))
         return output
 
